@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcos Marins | Backend Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="cabeca">
+        <nav class="opcao">
+
+            <h1 class="logo">
+                <span class="logo-icon">◉</span>
+                Marcos<span>.</span>
+            </h1>
+
+            <div class="menu-toggle" id="menu-toggle">
+                ☰
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#studies">Estudos</a></li>
+                <li><a href="#contact">Contato</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="apresentacao">
+            <div class="apre">
+
+                <img src="foto.jpeg" alt="Foto marcos marins" class="foto">
+
+                <h2 id="typing"></h2>
+                <p>Construindo aplicações com foco em python, APIs e arquitetura.</p>
+                <a href="#projects" class="btn">Ver projetos</a>
+            </div>
+        </section>
+
+        <section id="about" class="secao">
+            <h2>Sobre Mim</h2>
+            <p>Estudante focado em desenvolvimento backend com Python.
+            Atualmente construindo projetos práticos para consolidar fundamentos
+            de APIs, banco de dados e arquitetura de software.</p>
+        </section>
+
+        <!-- PROJETOS -->
+        <section id="projects" class="secao">
+            <h2>Projetos</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Landing page de Ofertas</h3>
+                    <p>Projeto desenvolvido com HTML e CSS com deploy estático</p>
+                    <a href="https://jr-marins.github.io/amazon-ofertas/" target="_blank">Ver projeto</a>
+                </article>
+
+                <article class="card">
+                    <h3>View Counter API</h3>
+                    <p>API REST em python para contagem global de acessos.</p>
+                    <a href="#" target="_blank">Ver Repositório</a>
+                </article>
+
+                <article class="card">
+                    <h3>🚀 Backend Flask com Banco de Dados</h3>
+                    <p>Aplicação backend construída com Flask que realiza operações em banco de dados (CRUD).</p>
+                    <a href="https://github.com/jr-marins/estudo-python/tree/main/backand_flask_database" target="_blank">Ver Repositório</a>
+                </article>
+
+                <article class="card">
+                    <h3>📊 Sistema de Gestão Cadastral — Interface em Python</h3>
+                    <p>Esse projeto é uma aplicação de gerenciamento de clientes e vendas, construída em Python com interface gráfica usando Tkinter.</p>
+                    <a href="https://github.com/jr-marins/estudo-python/tree/main/meuprojeto_v3_interface" target="_blank">Ver Repositório</a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- SOBRE ESTUDOS -->
+        <section id="studies" class="secao">
+            <h2>Estudo e Foco Atual </h2>
+            <ul class="study-list">
+                <li>Python para backend</li>
+                <li>APIs REST</li>
+                <li>Banco de Dados (SQLite / PostgreSQL / SQL)</li>
+                <li>Git e Versionamento</li>
+                <li>Arquitetura e Engenharia de Software</li>
+            </ul>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contact" class="secao">
+            <h2>Contato</h2>
+            <div class="contact-links">
+
+                <a href="https://www.linkedin.com/in/marcos-marins-jr-55097126b/">LinkdIn</a>
+                <a href="https://github.com/jr-marins">GitHub</a>
+                <a href="marcosmarinsjr@gmail.com">Email</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+        <p>©<span id="year"></span>Marcos Marins. Todos os direitos reservados</p>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
